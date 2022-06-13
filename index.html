@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="/assets/index.093dcdc8.css">
+  </head>
+  <body class="antialiased">
+    <div
+      class="h-screen justify-center items-center flex flex-col bg-slate-100 p-4"
+    >
+      <h1 class="text-4xl font-bold text-indigo-900 p-5 mt-10">
+        Prtm ToDo's List
+      </h1>
+      <div class="mt-5 mb-10">
+        <input
+          class="rounded-l-lg p-3 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
+          id="inputEl"
+          placeholder="Write something here..."
+        />
+        <button
+          class="px-6 rounded-r-lg bg-indigo-600 text-white font-bold p-3 uppercase border-indigo-700 border-t border-b border-r"
+          id="addBtn"
+        >
+          ADD
+        </button>
+      </div>
+      <div class="bg-white shadow-2xl h-full w-full p-4">
+        <ul id="listEl" class="p-2"></ul>
+      </div>
+    </div>
+    <script src="/app.js"></script>
+    <script src="https://kit.fontawesome.com/bf520e6492.js"></script>
+  </body>
+</html>
